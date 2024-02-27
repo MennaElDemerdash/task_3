@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.heading {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.heading {
+    width: 540px;
+}
+
+.heading {
+    width: 720px;
+}
+
+.heading {
+    width: 960px;
+}
+
+.heading {
+    width: 1180px;
+}
+
+.heading {
+    width: 1320px;
+}
+
+.header {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.header h1 {
+    font-size: 28px;
+    font-weight: 298;
+    color: hsl(230, 3%, 60%);
+}
+
+.header h2 {
+    font-size: 28px;
+    margin-top: 5px;
+    color: hsl(234, 12%, 34%);
+}
+
+.header p {
+    font-size: 16px;
+    font-weight: 280;
+    color: hsl(229, 6%, 66%);
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 15px;
+    max-width: 550px;
+}
+
+.cards {
+    margin-top: 65px;
+}
+
+.cards .card_1 {
+    background-color: white;
+    border-top: 3px solid transparent;
+    border-radius: 18px;
+    width: 100%;
+    padding: 27px 23px;
+    margin: 0 auto 25px auto;
+    box-shadow: 0px 6px 12px 0px rgba(216, 226, 238, .75);
+    border-color: hsl(180, 62%, 55%);
+    max-width:357px;
+}
+
+.cards .card_2 {
+    background-color: white;
+    border-top: 3px solid transparent;
+    border-radius: 18px;
+    width: 100%;
+    padding: 27px 23px;
+    margin: 0 auto 25px auto;
+    box-shadow: 0px 6px 12px 0px rgba(216, 226, 238, .75);
+    border-color: hsl(0, 78%, 62%);
+    max-width:357px;
+}
+
+.cards .card_3 {
+    background-color: white;
+    border-top: 3px solid transparent;
+    border-radius: 18px;
+    width: 100%;
+    padding: 27px 23px;
+    margin: 0 auto 25px auto;
+    box-shadow: 0px 6px 12px 0px rgba(216, 226, 238, .75);
+    border-color: hsl(212, 86%, 64%);
+    max-width:357px;
+}
+
+.cards .card_4 {
+    background-color: white;
+    border-top: 3px solid transparent;
+    border-radius: 18px;
+    width: 100%;
+    padding: 27px 23px;
+    margin: 0 auto 25px auto;
+    box-shadow: 0px 6px 12px 0px rgba(216, 226, 238, .75);
+    border-color: hsl(34, 97%, 64%);
+    max-width:357px;
+}
+
+.cards .card_1 h3 {
+    color: hsl(234, 12%, 34%);
+}
+
+.cards .card_2 h3 {
+    color: hsl(234, 12%, 34%);
+}
+
+.cards .card_3 h3 {
+    color: hsl(234, 12%, 34%);
+}
+
+.cards .card_4 h3 {
+    color: hsl(234, 12%, 34%);
+}
+
+.cards .card_1 p {
+    color: hsl(229, 6%, 66%);
+    font-size: 13px;
+    margin: 12px 0 36px 0;
+    line-height: 1.5px;
+}
+
+.cards .card_2 p {
+    color: hsl(229, 6%, 66%);
+    font-size: 13px;
+    margin: 12px 0 36px 0;
+
+}
+
+.cards .card_3 p {
+    color: hsl(229, 6%, 66%);
+    font-size: 13px;
+    margin: 12px 0 36px 0;
+
+}
+
+.cards .card_4 p {
+    color: hsl(229, 6%, 66%);
+    font-size: 13px;
+    margin: 12px 0 36px 0;
+
+}
+
+.cards .card_1 img {
+    display: block;
+    margin-left: auto;
+}
+
+.cards .card_2 img {
+    display: block;
+    margin-left: auto;
+}
+
+.cards .card_3 img {
+    display: block;
+    margin-left: auto;
+}
+
+.cards .card_4 img {
+    display: block;
+    margin-left: auto;
+}
+
+@media(min-width:786px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        column-gap:5px;
+        justify-content: center;
+    }
+}
+
+@media(min-width:1200px) {
+    .header {
+        padding-top: 50px;
+    }
+
+    .header h1 {
+        font-size: 35px;
+    }
+
+    .header h2 {
+        font-size: 35px;
+        margin-top: 0;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .cards .card_4{
+       margin-left: 25px;
+        margin-right: 0;
+      }
+      .cards .card_2{
+        margin-left: 25px;
+        margin-right: 0;
+      }
+    
+
+    .cards .card_1 {
+        transform: translateY(50%);  
+        margin-left: 50px; 
+        margin-top: 10px;
+        
+    }
+
+    .cards .card_3 {
+        transform: translateY(50%); 
+        
+    }
+}
